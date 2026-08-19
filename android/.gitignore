@@ -1,0 +1,77 @@
+.gitignor file for every project
+gradle-wrapper.jar
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
+
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/to/reference-keystore
+key.properties
+/*.keystore
+/*.jks
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Flutter generated
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+/android/.gradle/
+/android/captures/
+/android/local.properties
+/android/.cxx/
+
+# iOS
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+
+# macOS
+/macos/Pods/
+/macos/Flutter/ephemeral/
+
+# Linux
+/linux/flutter/ephemeral/
+
+# Windows
+/windows/flutter/ephemeral/
+
+# Keystore & Signing
+key.properties
+.jks
+.keystore
+
+# Environment
+.env
+.env.*
+
+# Firebase logs
+firebase-debug.log
+firebase-debug.*.log
